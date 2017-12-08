@@ -81,7 +81,7 @@ class GetStatus(Resource):
 
             
 
-            return {'StatusCode':'200','Items':items_list}
+            return {'StatusCode':'200','Items':data}
 
         except Exception as e:
             return {'error': str(e)}
